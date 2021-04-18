@@ -1,0 +1,50 @@
+
+body {	font-family: 'Proxima Nova', Arial, sans-serif;
+	width: 700px;
+	margin: 0 auto;
+}
+@font-face { 
+    font-family: 'Proxima Nova';
+    	src: url('Font/ProximaNova-Regular.ttf') format('truetype'),
+	src: url('Font/ProximaNova-Regular.eot') format('embedded-opentype'),
+	src: url('Font/ProximaNova-Regular.woff') format('woff'),
+	src: url('Font/ProximaNova-Regular.svg') format('svg');
+}
+
+#profile h2 {
+	padding-top: 70px;
+}
+
+.avatar {
+	float: left;
+	margin: 0 50px 30px 0;
+	border: 1px solid gray;
+}
+
+.avatar img {
+	display: block;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.naperdev {
+	margin: 5px 0;
+}
+
+.mde {
+	margin: 3px 0;
+}
+
+.shadow {
+    	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    	padding: 50px;
+}
+
+.background {
+    	background: linear-gradient(to right, #DCDCDC, #f5f5f5);
+    	padding: 3px;
+	border-radius: 5px
+}
+
